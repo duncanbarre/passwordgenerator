@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-text-one {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#header-text-two {
+    font-family: 'Karla', sans-serif;
+    color: #4ADF86;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#sub-text {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+#generate-btn {
+    /* margin-top: 51px; */
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: #10B981;
+    height: 40px;
+    width: 190px;
+    border-radius: 9px;
+    border-width: 0;
+    margin-bottom: 10px;
+}
+
+#line {
+    margin-top: 35px;
+    height: 1px;
+    background-color: #2F3E53;
+}
+
+#password-outer {
+    display: flex;
+}
+
+.password-div {
+    margin-top: 35px;
+    background-color: #273549;
+    width: 220px;
+    height: 40px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#passwordTwo-div {
+    margin-left: 24px;
+}
+
+.password-text {
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-left: auto;
+}
+
+#form {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+#lengthLabel {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+#lengthInput {
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#length-div {
+    display: inline;
+}
+
+#symbolsDiv {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.labelText {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#symbolsNumbers {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#checkLabel {
+    margin-left: 5px;
+}
+
+.copyButton {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 5px;
+}
